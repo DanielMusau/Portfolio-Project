@@ -12,3 +12,7 @@
 .default-padding {
     padding-top: 50px;
 }
+
+.project-grid {
+    @apply font-bold text-zinc-600;
+}

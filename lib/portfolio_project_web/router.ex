@@ -18,6 +18,7 @@ defmodule PortfolioProjectWeb.Router do
     pipe_through :browser
 
     live "/", HomeLive
+    live "/projects", ProjectLive
   end
 
   # Other scopes may use custom stacks.

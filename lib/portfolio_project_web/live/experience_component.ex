@@ -43,9 +43,9 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
           </div>
         </div>
       </a>
-      <a href="/files/resume.pdf" target="_blank" class="underline">
+      <.link navigate={~p"/files/resume.pdf"} target="_blank" class="underline">
         View Full Resume
-      </a>
+      </.link>
     </section>
     """
   end
