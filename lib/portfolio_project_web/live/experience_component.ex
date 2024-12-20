@@ -5,11 +5,11 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
     ~H"""
     <section id="experience" class="mb-24 default-padding">
       <a href="https://getonspace.com/" target="_blank">
-        <div class="grid grid-cols-6 gap-4 border rounded-md mb-4 pb-4 pt-3">
-          <div class="col-span-2 ml-4">
+        <div class="show-card">
+          <div class="show-card-left">
             2023 - Present
           </div>
-          <div class="col-span-4 mr-4">
+          <div class="show-card-right">
             <h2 class="font-bold pb-2">Backend Software Engineer • OnSpace Technologies</h2>
             <p class="pb-2">
               I build and maintain key backend components for OnSpace, ensuring scalability and reliability.
@@ -25,11 +25,11 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
         </div>
       </a>
       <a href="https://globalspark.world/" target="_blank">
-        <div class="grid grid-cols-6 gap-4 border rounded-md mb-4 pb-4 pt-3">
-          <div class="col-span-2 ml-4">
+        <div class="show-card">
+          <div class="show-card-left">
             2023 - 2024
           </div>
-          <div class="col-span-4 mr-4">
+          <div class="show-card-right">
             <h2 class="font-bold pb-2">Full Stack Software Development Lead • GlobalSpark</h2>
             <p class="pb-2">
               I led full-stack development at GlobalSpark, improving the website and hacker dashboard for

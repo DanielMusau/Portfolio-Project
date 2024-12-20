@@ -16,3 +16,16 @@
 .project-grid {
     @apply font-bold text-zinc-600;
 }
+
+.show-card {
+    @apply grid grid-cols-6 gap-4 rounded-md mb-4 pb-4 pt-3 hover:bg-zinc-100 hover:border-zinc-200;
+}
+
+.show-card-left {
+    @apply col-span-2 ml-7;
+}
+
+.show-card-right {
+    @apply col-span-4 mr-7;
+}
+
