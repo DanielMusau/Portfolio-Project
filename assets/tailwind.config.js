@@ -22,7 +22,7 @@ module.exports = {
         // Text colors
         text: {
           dark: '#1E293B',
-          light: '#E2E8F0',
+          light: '#D1D5DB',
           hover: '#818CF8'
         }
       },

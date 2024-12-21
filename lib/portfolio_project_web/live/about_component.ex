@@ -4,7 +4,6 @@ defmodule PortfolioProjectWeb.AboutComponent do
   def render(assigns) do
     ~H"""
     <section id="about" class="mb-24 default-padding">
-      <%!-- <h3 class="text-2xl font-bold mb-4">About</h3> --%>
       <p>
         Hi there! I’m Daniel Musau, a software engineer based in Nairobi, Kenya, with a passion for crafting reliable,
         scalable, and impactful backend systems. With expertise in Elixir, Python, JavaScript, and SQL, I thrive on solving

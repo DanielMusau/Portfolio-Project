@@ -20,7 +20,7 @@ defmodule PortfolioProjectWeb.HomeLive do
             that drive seamless functionality and deliver meaningful impact.
           </p>
           <!-- Navigation - hidden on small screens -->
-          <nav class="hidden lg:flex lg:flex-col gap-4">
+          <nav class="hidden lg:flex lg:flex-col gap-4 mb-20">
             <a href="#about" class="text-lg font-medium hover:underline hover:text-text-hover">
               About
             </a>
@@ -31,14 +31,32 @@ defmodule PortfolioProjectWeb.HomeLive do
               Projects
             </a>
           </nav>
-        </div>
-        <div class="flex gap-4 mt-6 lg:mt-0">
-          <a href="https://github.com/DanielMusau" target="_blank">
-            <img src="/images/github.svg" alt="GitHub" target="_blank" />
-          </a>
-          <a href="https://www.linkedin.com/in/daniel-musau/" target="_blank">
-            <img src="/images/linkedin.svg" alt="LinkedIn" target="_blank" />
-          </a>
+          <div class="flex gap-4 mt-6 lg:mt-0">
+            <a href="https://github.com/DanielMusau" target="_blank">
+              <img
+                src="/images/github.svg"
+                alt="GitHub"
+                class="invert hover:invert-0"
+                target="_blank"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-musau/" target="_blank">
+              <img
+                src="/images/linkedin.svg"
+                alt="LinkedIn"
+                class="invert hover:invert-0"
+                target="_blank"
+              />
+            </a>
+            <a href="https://dannymusau.medium.com/" target="_blank">
+              <img
+                src="/images/medium.svg"
+                alt="Medium"
+                class="invert hover:invert-0"
+                target="_blank"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <!-- Right Column - adjusted to be responsive -->

@@ -14,7 +14,7 @@
 }
 
 .project-grid {
-    @apply font-bold text-zinc-600;
+    @apply font-bold;
 }
 
 .show-card {
@@ -24,7 +24,7 @@
 
 .show-card:hover {
     @apply shadow-lg;
-    transform: translateY(-4px);
+    transform: translateY(-5px);
 }
 
 .show-card:hover .bg-background-light {
