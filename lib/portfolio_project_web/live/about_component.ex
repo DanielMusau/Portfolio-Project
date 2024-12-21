@@ -12,16 +12,26 @@ defmodule PortfolioProjectWeb.AboutComponent do
       </p>
       <br />
       <p>
-        Currently, I’m part of the team at OnSpace Technologies, where I’ve led the backend integration with Zapier,
-        enabling users to automate workflows and boosting platform traffic. I’ve also enhanced system stability through
-        gradual rollout strategies, maintained GraphQL APIs for high-performance mobile applications, and ensured 99.99%
-        availability of backend services using test-driven development practices.
+        Currently, I’m part of the team at <a
+          href="https://getonspace.com/"
+          target="_blank"
+          class="font-bold hover:text-text-hover"
+        >
+        OnSpace Technologies</a>, where I’ve led the backend integration with Zapier, enabling users to automate workflows
+        and boosting platform traffic. I’ve also enhanced system stability through gradual rollout strategies, maintained
+        GraphQL APIs for high-performance mobile applications, and ensured 99.99% availability of backend services using
+        test-driven development practices.
       </p>
       <br />
       <p>
-        Outside of work, I’ve contributed to projects like Global Spark, where I revamped websites and digital platforms,
-        improving user engagement and satisfaction. Whether I’m building robust APIs, optimizing databases, or designing
-        backend infrastructures, I love creating systems that are not only functional but also elegant and maintainable.
+        Outside of work, I’ve contributed to projects like <a
+          href="https://globalspark.world/"
+          target="_blank"
+          class="font-bold hover:text-text-hover"
+        >Global Spark</a>, where I revamped websites and digital platforms,
+        improving user engagement and satisfaction. Whether I’m building robust APIs, optimizing databases, or
+        designing backend infrastructures, I love creating systems that are not only functional but also elegant
+        and maintainable.
       </p>
       <br />
       <p>

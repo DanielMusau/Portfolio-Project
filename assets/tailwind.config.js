@@ -14,7 +14,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#FD4F00",
+        // Background colors
+        background: {
+          light: '#1E293B',
+          dark: '#0F172A'
+        },
+        // Text colors
+        text: {
+          dark: '#1E293B',
+          light: '#E2E8F0',
+          hover: '#818CF8'
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif']
       }
     },
   },

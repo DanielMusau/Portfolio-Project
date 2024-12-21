@@ -11,30 +11,23 @@ defmodule PortfolioProjectWeb.HomeLive do
       <!-- Left Column - made flexible -->
       <div class="w-full lg:w-[50%] lg:max-w-[650px] lg:h-screen p-6 lg:p-12 flex flex-col justify-between">
         <div>
-          <a href="/" class="text-4xl lg:text-5xl font-bold text-zinc-900 mb-2">Daniel Musau</a>
-          <h2 class="text-xl lg:text-2xl font-bold text-zinc-600 mb-8">Software Engineer</h2>
-          <p class="text-zinc-600 mb-12">
+          <a href="/" class="text-4xl lg:text-5xl font-bold mb-2 hover:text-text-hover">
+            Daniel Musau
+          </a>
+          <h2 class="text-xl lg:text-2xl font-bold mb-8">Software Engineer</h2>
+          <p class="mb-12">
             A dedicated software engineer who excels at designing and building robust backend systems
             that drive seamless functionality and deliver meaningful impact.
           </p>
           <!-- Navigation - hidden on small screens -->
           <nav class="hidden lg:flex lg:flex-col gap-4">
-            <a
-              href="#about"
-              class="text-lg font-medium text-zinc-600 hover:text-zinc-900 hover:underline"
-            >
+            <a href="#about" class="text-lg font-medium hover:underline hover:text-text-hover">
               About
             </a>
-            <a
-              href="#experience"
-              class="text-lg font-medium text-zinc-600 hover:text-zinc-900 hover:underline"
-            >
+            <a href="#experience" class="text-lg font-medium hover:underline hover:text-text-hover">
               Experience
             </a>
-            <a
-              href="#projects"
-              class="text-lg font-medium text-zinc-600 hover:text-zinc-900 hover:underline"
-            >
+            <a href="#projects" class="text-lg font-medium hover:underline hover:text-text-hover">
               Projects
             </a>
           </nav>
@@ -51,13 +44,13 @@ defmodule PortfolioProjectWeb.HomeLive do
       <!-- Right Column - adjusted to be responsive -->
       <div class="w-full lg:w-[60%] p-6 lg:p-12 overflow-y-auto h-screen scroll-smooth scrollbar-hide">
         <!-- Section headers visible on small screens -->
-        <h2 class="lg:hidden text-2xl font-bold text-zinc-900 mb-6 pt-6">About</h2>
+        <h2 class="lg:hidden text-2xl font-bold mb-6 pt-6">About</h2>
         <.live_component module={PortfolioProjectWeb.AboutComponent} id="about" />
 
-        <h2 class="lg:hidden text-2xl font-bold text-zinc-900 mb-6 pt-12">Experience</h2>
+        <h2 class="lg:hidden text-2xl font-bold mb-6 pt-12">Experience</h2>
         <.live_component module={PortfolioProjectWeb.ExperienceComponent} id="experience" />
 
-        <h2 class="lg:hidden text-2xl font-bold text-zinc-900 mb-6 pt-12">Projects</h2>
+        <h2 class="lg:hidden text-2xl font-bold mb-6 pt-12">Projects</h2>
         <.live_component module={PortfolioProjectWeb.ProjectComponent} id="projects" />
       </div>
     </div>

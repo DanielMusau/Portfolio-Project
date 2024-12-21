@@ -23,7 +23,7 @@ defmodule PortfolioProjectWeb.ProjectComponent do
           </div>
         </div>
       </a>
-      <.link href="/projects" class="underline">
+      <.link href="/projects" class="underline hover:text-text-hover">
         View Full Project Archive
       </.link>
     </section>

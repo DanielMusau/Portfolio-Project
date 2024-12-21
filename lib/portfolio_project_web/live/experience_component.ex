@@ -16,11 +16,21 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
               Working with developers, product managers, and designers, I help deliver new features and continuously
               improve the product while promoting best practices in software engineering.
             </p>
-            <div class="border rounded-md text-center inline-block px-2 py-1">Elixir</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">GraphQL</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">PostgreSQL</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">AWS</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">Azure</div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Elixir
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              GraphQL
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              PostgreSQL
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              AWS
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Azure
+            </div>
           </div>
         </div>
       </a>
@@ -37,13 +47,19 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
               features and drive user satisfaction, while ensuring scalable, high-performance solutions using
               React and Node.js.
             </p>
-            <div class="border rounded-md text-center inline-block px-2 py-1">React</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">JavaScript</div>
-            <div class="border rounded-md text-center inline-block px-2 py-1">Node.js</div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              React
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              JavaScript
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Node.js
+            </div>
           </div>
         </div>
       </a>
-      <.link navigate={~p"/files/resume.pdf"} target="_blank" class="underline">
+      <.link navigate={~p"/files/resume.pdf"} target="_blank" class="underline hover:text-text-hover">
         View Full Resume
       </.link>
     </section>
