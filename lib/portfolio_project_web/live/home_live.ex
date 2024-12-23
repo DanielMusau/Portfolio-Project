@@ -2,7 +2,7 @@ defmodule PortfolioProjectWeb.HomeLive do
   use PortfolioProjectWeb, :live_view
 
   def mount(_params, _session, socket) do
-    {:ok, assign(socket, page_title: "Home")}
+    {:ok, socket}
   end
 
   def render(assigns) do
