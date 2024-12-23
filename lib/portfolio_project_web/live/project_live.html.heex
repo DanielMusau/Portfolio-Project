@@ -1,21 +1,296 @@
-<div class="pt-10 ml-10 mr-10">
-  <.link href="/" class="text-base hover:text-text-hover">Daniel Musau</.link>
+<div class="pt-10 mx-10 pl-20 pr-20">
+  <.link href="/" class="text-base hover:text-text-hover group">
+    <img
+      src="/images/arrow-back.svg"
+      class="invert w-4 h-4 inline-block mr-1 group-hover:-translate-x-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+    />Daniel Musau
+  </.link>
   <h1 class="text-3xl font-bold mb-10">All Projects</h1>
-  <div class="grid grid-cols-12 gap-4 border-b pb-4">
-    <div class="col-span-1">
-      <h3 class="project-grid">Year</h3>
-    </div>
-    <div class="col-span-3">
-      <h3 class="project-grid">Project</h3>
-    </div>
-    <div class="col-span-2">
-      <h3 class="project-grid">Made at</h3>
-    </div>
-    <div class="col-span-3">
-      <h3 class="project-grid">Built with</h3>
-    </div>
-    <div class="col-span-2">
-      <h3 class="project-grid">Link</h3>
-    </div>
-  </div>
+
+  <table class="w-full">
+    <thead>
+      <tr class="border-b">
+        <th class="pb-4 text-left font-bold w-[5%]">Year</th>
+        <th class="pb-4 text-left font-bold w-[20%] hidden md:table-cell">Project</th>
+        <th class="pb-4 text-left font-bold w-[20%] hidden md:table-cell">Made at</th>
+        <th class="pb-4 text-left font-bold w-[25%] hidden md:table-cell">Built with</th>
+        <th class="pb-4 text-left font-bold w-[15%]">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b">
+        <td class="py-4">2024</td>
+        <td class="py-4 font-bold hidden md:table-cell">Workflow Automations</td>
+        <td class="py-4 hidden md:table-cell">OnSpace Technologies</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">GraphQL API</span>
+            <span class="language-tag">RESTful API</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://web.getonspace.com/#/webAutomations"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Workflow Automations
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2024</td>
+        <td class="py-4 font-bold hidden md:table-cell">OnSpace-Zapier Integration</td>
+        <td class="py-4 hidden md:table-cell">OnSpace Technologies</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">Zapier</span>
+            <span class="language-tag">RESTful API</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://web.getonspace.com/#/webAutomations"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            OnSpace-Zapier Integration
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2024</td>
+        <td class="py-4 font-bold hidden md:table-cell">Ueberauth Zapier</td>
+        <td class="py-4 hidden md:table-cell"></td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">Zapier</span>
+            <span class="language-tag">OAuth 2.0</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://hex.pm/packages/ueberauth_zapier"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Ueberauth Zapier
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2024</td>
+        <td class="py-4 font-bold hidden md:table-cell">GPS Area Measurement</td>
+        <td class="py-4 hidden md:table-cell">OnSpace Technologies</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">GraphQL</span>
+            <span class="language-tag">PostgreSQL</span>
+            <span class="language-tag">PostGIS</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://web.getonspace.com/#/group/update-input-fields"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            GPS Area Measurement
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2023</td>
+        <td class="py-4 font-bold hidden md:table-cell">Unique ID Generator</td>
+        <td class="py-4 hidden md:table-cell">OnSpace Technologies</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">PostgreSQL</span>
+            <span class="language-tag">GraphQL</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://web.getonspace.com/#/group/update-input-fields"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Unique ID Generator
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2023</td>
+        <td class="py-4 font-bold hidden md:table-cell">Engagement Reports</td>
+        <td class="py-4 hidden md:table-cell">OnSpace Technologies</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Elixir</span>
+            <span class="language-tag">PostgreSQL</span>
+            <span class="language-tag">GraphQL</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://web.getonspace.com/#/webEngagementsView"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Engagement Reports
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2023</td>
+        <td class="py-4 font-bold hidden md:table-cell">Global Spark Website V2</td>
+        <td class="py-4 hidden md:table-cell">Global Spark</td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">React.js</span>
+            <span class="language-tag">Node.js</span>
+            <span class="language-tag">Tailwind CSS</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://globalspark.world/"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Global Spark Website V2
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2023</td>
+        <td class="py-4 font-bold hidden md:table-cell">Airbnb Console Clone</td>
+        <td class="py-4 hidden md:table-cell"></td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">Python</span>
+            <span class="language-tag">Shell Scripting</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://github.com/DanielMusau/AirBnB_clone"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Airbnb Console Clone
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2022</td>
+        <td class="py-4 font-bold hidden md:table-cell">Simple Shell</td>
+        <td class="py-4 hidden md:table-cell"></td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">C</span>
+            <span class="language-tag">Unix Command-interpreter</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://github.com/DanielMusau/simple_shell"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Simple Shell
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2022</td>
+        <td class="py-4 font-bold hidden md:table-cell">Printf</td>
+        <td class="py-4 hidden md:table-cell"></td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap">
+            <span class="language-tag">C</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://github.com/DanielMusau/printf"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Printf
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+      <tr class="border-b">
+        <td class="py-4">2022</td>
+        <td class="py-4 font-bold hidden md:table-cell">Adaptive Traffic Lights System</td>
+        <td class="py-4 hidden md:table-cell"></td>
+        <td class="py-4 hidden md:table-cell">
+          <div class="flex flex-wrap gap-1">
+            <span class="language-tag">Python</span>
+            <span class="language-tag">CNN</span>
+            <span class="language-tag">YOLO Object Detection</span>
+            <span class="language-tag">Machine Learning</span>
+          </div>
+        </td>
+        <td class="py-4">
+          <.link
+            href="https://github.com/DanielMusau/Adaptive-Traffic-Lights"
+            class="hover:text-text-hover group"
+            target="_blank"
+          >
+            Adaptive Traffic Lights
+            <img
+              src="/images/arrow-up-right.svg"
+              class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+            />
+          </.link>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>

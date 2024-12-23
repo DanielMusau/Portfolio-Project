@@ -59,8 +59,12 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
           </div>
         </div>
       </a>
-      <.link navigate={~p"/files/resume.pdf"} target="_blank" class="underline hover:text-text-hover">
+      <.link navigate={~p"/files/resume.pdf"} target="_blank" class="hover:text-text-hover group">
         View Full Resume
+        <img
+          src="/images/arrow-up-right.svg"
+          class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+        />
       </.link>
     </section>
     """

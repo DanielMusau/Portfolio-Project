@@ -21,13 +21,22 @@ defmodule PortfolioProjectWeb.HomeLive do
           </p>
           <!-- Navigation - hidden on small screens -->
           <nav class="hidden lg:flex lg:flex-col gap-4 mb-20">
-            <a href="#about" class="text-lg font-medium hover:underline hover:text-text-hover">
+            <a
+              href="#about"
+              class="text-lg font-medium hover:underline hover:text-text-hover hover:-translate-y-1 transition-transform duration-300 ease-in-out"
+            >
               About
             </a>
-            <a href="#experience" class="text-lg font-medium hover:underline hover:text-text-hover">
+            <a
+              href="#experience"
+              class="text-lg font-medium hover:underline hover:text-text-hover hover:-translate-y-1 transition-transform duration-300 ease-in-out"
+            >
               Experience
             </a>
-            <a href="#projects" class="text-lg font-medium hover:underline hover:text-text-hover">
+            <a
+              href="#projects"
+              class="text-lg font-medium hover:underline hover:text-text-hover hover:-translate-y-1 transition-transform duration-300 ease-in-out"
+            >
               Projects
             </a>
           </nav>
@@ -36,7 +45,7 @@ defmodule PortfolioProjectWeb.HomeLive do
               <img
                 src="/images/github.svg"
                 alt="GitHub"
-                class="invert hover:invert-0"
+                class="invert hover:-translate-y-1 hover:opacity-70 transition-transform duration-300 ease-in-out"
                 target="_blank"
               />
             </a>
@@ -44,7 +53,7 @@ defmodule PortfolioProjectWeb.HomeLive do
               <img
                 src="/images/linkedin.svg"
                 alt="LinkedIn"
-                class="invert hover:invert-0"
+                class="invert hover:-translate-y-1 hover:opacity-70 transition-transform duration-300 ease-in-out"
                 target="_blank"
               />
             </a>
@@ -52,7 +61,7 @@ defmodule PortfolioProjectWeb.HomeLive do
               <img
                 src="/images/medium.svg"
                 alt="Medium"
-                class="invert hover:invert-0"
+                class="invert hover:-translate-y-1 hover:opacity-70 transition-transform duration-300 ease-in-out"
                 target="_blank"
               />
             </a>

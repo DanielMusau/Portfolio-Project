@@ -21,13 +21,19 @@ module.exports = {
         },
         // Text colors
         text: {
-          dark: '#1E293B',
+          dark: '#6B7280',
           light: '#D1D5DB',
           hover: '#818CF8'
         }
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif']
+        mono: [
+          'SF Mono',
+          'Fira Code',
+          'Fira Mono',
+          'Roboto Mono',
+          'monospace'
+        ]
       }
     },
   },

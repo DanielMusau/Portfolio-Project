@@ -5,8 +5,8 @@ defmodule PortfolioProjectWeb.AboutComponent do
     ~H"""
     <section id="about" class="mb-24 default-padding">
       <p>
-        Hi there! I’m Daniel Musau, a software engineer based in Nairobi, Kenya, with a passion for crafting reliable,
-        scalable, and impactful backend systems. With expertise in Elixir, Python, JavaScript, and SQL, I thrive on solving
+        Hi there! I’m Daniel Musau, a software engineer with a passion for crafting reliable,
+        scalable, and impactful backend systems. With expertise in various languages and technologies, I thrive on solving
         complex challenges and delivering solutions that drive meaningful results.
       </p>
       <br />
@@ -34,10 +34,7 @@ defmodule PortfolioProjectWeb.AboutComponent do
       </p>
       <br />
       <p>
-        When I’m not coding, you’ll likely find me exploring new technologies, refining my skills, or brainstorming
-        innovative ways to tackle backend challenges. I’m always open to opportunities that allow me to build great
-        products and collaborate with others to make a lasting impact.
-
+        When I’m not coding, I'm either watching films, reading books, or hanging out with friends.
         Let’s connect and build something amazing!
       </p>
     </section>

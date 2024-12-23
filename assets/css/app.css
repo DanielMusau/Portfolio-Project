@@ -39,3 +39,7 @@
     @apply col-span-4 mr-7;
 }
 
+.language-tag {
+    @apply bg-background-light rounded-full text-center text-text-hover inline-block px-2 py-1 mr-1 text-sm;
+}
+
