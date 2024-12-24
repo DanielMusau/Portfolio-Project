@@ -7,7 +7,7 @@ defmodule PortfolioProjectWeb.HomeLive do
 
   def render(assigns) do
     ~H"""
-    <div class="flex flex-col lg:flex-row min-h-screen ml-10 mr-10">
+    <div class="flex flex-col lg:flex-row min-h-screen mx-0 md:mx-10">
       <!-- Left Column - made flexible -->
       <div class="w-full lg:w-[50%] lg:max-w-[650px] lg:h-screen p-6 lg:p-12 flex flex-col justify-between">
         <div>
@@ -20,7 +20,7 @@ defmodule PortfolioProjectWeb.HomeLive do
             that drive seamless functionality and deliver meaningful impact.
           </p>
           <!-- Navigation - hidden on small screens -->
-          <nav class="hidden lg:flex lg:flex-col gap-4 mb-20">
+          <nav class="hidden lg:flex lg:flex-col gap-4 lg:mb-20">
             <a
               href="#about"
               class="text-lg font-medium hover:underline hover:text-text-hover hover:-translate-y-1 transition-transform duration-300 ease-in-out"

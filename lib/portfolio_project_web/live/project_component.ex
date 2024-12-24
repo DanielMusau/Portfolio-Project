@@ -5,7 +5,7 @@ defmodule PortfolioProjectWeb.ProjectComponent do
     ~H"""
     <section id="projects" class="mb-24 default-padding">
       <a href="https://hex.pm/packages/ueberauth_zapier" target="_blank">
-        <div class="show-card">
+        <div class="project-card">
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img src="https://hex.pm/images/hex.png" alt="Hex.pm logo" class="w-13 h-13 mb-2" />
@@ -24,7 +24,7 @@ defmodule PortfolioProjectWeb.ProjectComponent do
         </div>
       </a>
       <a href="https://github.com/DanielMusau/AirBnB_clone" target="_blank">
-        <div class="show-card">
+        <div class="project-card">
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img src="/images/github.svg" alt="GitHub logo" class="invert w-20 h-20 mb-2" />
@@ -43,7 +43,7 @@ defmodule PortfolioProjectWeb.ProjectComponent do
         </div>
       </a>
       <a href="https://github.com/DanielMusau/Adaptive-Traffic-Lights" target="_blank">
-        <div class="show-card">
+        <div class="project-card">
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img src="/images/github.svg" alt="GitHub logo" class="invert w-20 h-20 mb-2" />
