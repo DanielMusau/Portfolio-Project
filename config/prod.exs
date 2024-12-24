@@ -18,12 +18,13 @@ config :swoosh, local: false
 config :logger, level: :info
 
 config :portfolio_project, PortfolioProjectWeb.Endpoint,
-  url: [host: "danielmusau.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json",
+  http: [port: String.to_integer(System.get_env("PORT") || "4000")],
+  secret_key_base: System.get_env("SECRET_KEY_BASE"),
+  server: true,
   check_origin: [
-    "//danielmusau.com",
-    "//www.danielmusau.com",
-    "//daniel-musau.gigalixirapp.com/"
+    "http://localhost:4000",
+    "https://danielmusau.com",
+    "https://danielmusau-dueqgdbtb6brc8a3.canadacentral-01.azurewebsites.net/"
   ]
 
 # Runtime production configuration, including reading

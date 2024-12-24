@@ -35,3 +35,5 @@ portfolio_project-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ignore the .env file
+.env
