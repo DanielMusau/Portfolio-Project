@@ -17,5 +17,14 @@ config :swoosh, local: false
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :portfolio_project, PortfolioProjectWeb.Endpoint,
+  url: [host: "danielmusau.com", port: 80],
+  cache_static_manifest: "priv/static/cache_manifest.json",
+  check_origin: [
+    "//danielmusau.com",
+    "//www.danielmusau.com",
+    "//daniel-musau.gigalixirapp.com/"
+  ]
+
 # Runtime production configuration, including reading
 # of environment variables, is done on config/runtime.exs.
