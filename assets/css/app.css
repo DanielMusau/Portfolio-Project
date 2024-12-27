@@ -52,3 +52,8 @@
     @apply order-last md:order-first;
 }
 
+.project-card:hover {
+    @apply shadow-lg;
+    transform: translateY(-5px);
+}
+

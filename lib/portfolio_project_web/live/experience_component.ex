@@ -5,12 +5,18 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
     ~H"""
     <section id="experience" class="mb-24 default-padding">
       <a href="https://getonspace.com/" target="_blank">
-        <div class="show-card">
+        <div class="show-card group">
           <div class="show-card-left">
             2023 - Present
           </div>
           <div class="show-card-right">
-            <h2 class="font-bold pb-2">Backend Software Engineer • OnSpace Technologies</h2>
+            <h2 class="font-bold pb-2">
+              Backend Software Engineer • OnSpace Technologies
+              <img
+                src="/images/arrow-up-right.svg"
+                class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+              />
+            </h2>
             <p class="pb-2">
               I build and maintain key backend components for OnSpace, ensuring scalability and reliability.
               Working with developers, product managers, and designers, I help deliver new features and continuously
@@ -35,12 +41,18 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
         </div>
       </a>
       <a href="https://globalspark.world/" target="_blank">
-        <div class="show-card">
+        <div class="show-card group">
           <div class="show-card-left">
             2023 - 2024
           </div>
           <div class="show-card-right">
-            <h2 class="font-bold pb-2">Full Stack Software Development Lead • GlobalSpark</h2>
+            <h2 class="font-bold pb-2">
+              Full Stack Software Development Lead • GlobalSpark
+              <img
+                src="/images/arrow-up-right.svg"
+                class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+              />
+            </h2>
             <p class="pb-2">
               I led full-stack development at GlobalSpark, improving the website and hacker dashboard for
               better performance and user engagement. I collaborated with cross-functional teams to enhance
