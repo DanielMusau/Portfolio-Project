@@ -17,7 +17,7 @@ defmodule PortfolioProjectWeb do
   those modules here.
   """
 
-  def static_paths, do: ~w(assets fonts images favicon.ico robots.txt files)
+  def static_paths, do: ~w(assets fonts images robots.txt files)
 
   def router do
     quote do
