@@ -4,34 +4,6 @@ defmodule PortfolioProjectWeb.ProjectComponent do
   def render(assigns) do
     ~H"""
     <section id="projects" class="mb-24 default-padding">
-      <a href="https://danielmusau.com" target="_blank">
-        <div class="project-card group">
-          <div class="col-span-2">
-            <div class="flex flex-col items-center justify-center h-full">
-              <img
-                src="/images/portfolio.png"
-                alt="Portfolio Website"
-                class="w-[190px] h-[100px] mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
-              />
-            </div>
-          </div>
-          <div class="show-card-right">
-            <h2 class="font-bold pb-2">
-              Portfolio Website
-              <img
-                src="/images/arrow-up-right.svg"
-                class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
-              />
-            </h2>
-            <p class="pb-2">
-              A professional portfolio website built using Phoenix LiveView and Tailwind CSS,
-              designed to showcase my projects, technical skills, and professional experience.
-              Hosted on Microsoft Azure, it combines responsive design with dynamic interactivity
-              to provide an engaging user experience.
-            </p>
-          </div>
-        </div>
-      </a>
       <a href="https://hex.pm/packages/ueberauth_zapier" target="_blank">
         <div class="project-card group">
           <div class="col-span-2">
@@ -61,31 +33,30 @@ defmodule PortfolioProjectWeb.ProjectComponent do
           </div>
         </div>
       </a>
-      <a href="https://github.com/DanielMusau/AirBnB_clone" target="_blank">
+      <a href="https://globalspark.world/" target="_blank">
         <div class="project-card group">
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img
-                src="/images/github.svg"
-                alt="GitHub logo"
-                class="invert w-20 h-20 mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
+                src="/images/global-spark.png"
+                alt="Global Spark"
+                class="w-[190px] h-[100px] mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
               />
-              <div class="text-sm font-semibold">GitHub</div>
             </div>
           </div>
           <div class="show-card-right">
             <h2 class="font-bold pb-2">
-              Airbnb Console Clone
+              Global Spark Website
               <img
                 src="/images/arrow-up-right.svg"
                 class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
               />
             </h2>
             <p class="pb-2">
-              A command-line interface clone of Airbnb's management console, built with Python.
-              This application implements CRUD operations (Create, Read, Update, Delete) for
-              managing property listings and user data. Features include persistent storage,
-              object serialization, and a comprehensive command system.
+              A modern, high-performance website built for Global Spark to enhance
+              user engagement and showcase innovation-driven initiatives. Developed
+              with React and Firebase, it delivers a seamless user experience, improved
+              accessibility, and optimized performance—leading to increased user interaction.
             </p>
           </div>
         </div>
