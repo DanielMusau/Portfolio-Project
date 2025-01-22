@@ -19,6 +19,7 @@ defmodule PortfolioProjectWeb.Router do
 
     live "/", HomeLive
     live "/projects", ProjectLive
+    live "/privacypolicy", PrivacyPolicyLive
   end
 
   # Other scopes may use custom stacks.
