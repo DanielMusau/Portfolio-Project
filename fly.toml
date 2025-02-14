@@ -4,7 +4,7 @@
 #
 
 app = 'portfolio-project'
-primary_region = 'jnb'
+primary_region = 'ams'
 kill_signal = 'SIGTERM'
 
 [build]
