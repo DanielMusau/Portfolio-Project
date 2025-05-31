@@ -10,15 +10,35 @@ defmodule PortfolioProjectWeb.AboutComponent do
       </p>
       <br />
       <p>
-        Currently, I’m a Backend Engineer at <a
+        Currently, I’m a Full Stack Software Engineer at
+        <a
+          href="https://www.favoredcompany.com"
+          target="_blank"
+          class="font-bold hover:text-text-hover group"
+        >
+          Favored Company
+          <img
+            src="/images/arrow-up-right.svg"
+            class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+          />
+        </a>
+        where I build full stack applications using Phoenix LiveView and the Ash framework. I specialize in delivering end-to-end solutions,
+        contributing to design implementation, UI/UX enhancements, and collaborative problem-solving sessions to create innovative
+        applications that address real-world challenges.
+      </p>
+      <br />
+      <p>
+        Additionally, I work part-time as a Backend Engineer at <a
           href="https://getonspace.com/"
           target="_blank"
           class="font-bold hover:text-text-hover group"
         >
-        OnSpace Technologies<img
+        OnSpace Technologies
+        <img
             src="/images/arrow-up-right.svg"
             class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
-          /></a>,
+          />
+        </a>,
         where I design and maintain high-performance backend systems. I work with GraphQL and REST APIs, optimize databases, and apply
         test-driven development to ensure 99.99% service availability. Beyond coding, I contribute to brainstorming sessions, mentor
         colleagues, and foster a collaborative engineering culture. I’m always seeking ways to improve—whether refining system

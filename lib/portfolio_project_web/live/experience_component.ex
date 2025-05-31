@@ -7,7 +7,43 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
       <a href="https://getonspace.com/" target="_blank">
         <div class="show-card group">
           <div class="show-card-left">
-            2023 - Present
+            March 2025 - Present
+          </div>
+          <div class="show-card-right">
+            <h2 class="font-bold pb-2">
+              Full Stack Software Engineer • Favored Company
+              <img
+                src="/images/arrow-up-right.svg"
+                class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+              />
+            </h2>
+            <p class="pb-2">
+              I develop and maintain multiple full-stack applications for Favored,
+              ensuring high availability and seamless end-to-end functionality across
+              frontend and backend systems. Collaborating with product managers, designers,
+              and clients, I deliver tailored features and applications that directly address
+              client requirements and business objectives.
+            </p>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Elixir
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Phoenix LiveView
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              PostgreSQL
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Ash Framework
+            </div>
+            <div class="bg-background-light rounded-full text-center inline-block px-2 py-1 mr-1">
+              Fly.io
+            </div>
+          </div>
+        </div>
+        <div class="show-card group">
+          <div class="show-card-left">
+            May 2023 - Present
           </div>
           <div class="show-card-right">
             <h2 class="font-bold pb-2">
@@ -43,7 +79,7 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
       <a href="https://globalspark.world/" target="_blank">
         <div class="show-card group">
           <div class="show-card-left">
-            2023 - 2024
+            May 2023 - May 2024
           </div>
           <div class="show-card-right">
             <h2 class="font-bold pb-2">

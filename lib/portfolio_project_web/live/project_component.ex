@@ -4,6 +4,36 @@ defmodule PortfolioProjectWeb.ProjectComponent do
   def render(assigns) do
     ~H"""
     <section id="projects" class="mb-24 default-padding">
+      <a href="https://www.hypedboards.com" target="_blank">
+        <div class="project-card group">
+          <div class="col-span-2">
+            <div class="flex flex-col items-center justify-center h-full">
+              <img
+                src="/images/hypedboards.png"
+                alt="Global Spark"
+                class="w-[320px] h-[160px] mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="show-card-right">
+            <h2 class="font-bold pb-2">
+              Hypedboards
+              <img
+                src="/images/arrow-up-right.svg"
+                class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
+              />
+            </h2>
+            <p class="pb-2">
+              A gamified leaderboard platform that brings fun, motivation, and
+              healthy competition into the workplace. Teams and departments can
+              track performance in real time as users climb a dynamic leaderboard,
+              complete challenges, earn achievements, and interact through avatars and chat.
+              It's designed to boost engagement and productivity by turning everyday goals
+              into a game.
+            </p>
+          </div>
+        </div>
+      </a>
       <a href="https://hex.pm/packages/ueberauth_zapier" target="_blank">
         <div class="project-card group">
           <div class="col-span-2">
