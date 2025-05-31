@@ -16,8 +16,8 @@ defmodule PortfolioProjectWeb.HomeLive do
           </a>
           <h2 class="text-xl lg:text-2xl font-bold mb-8">Software Engineer</h2>
           <p class="mb-12">
-            A dedicated software engineer who excels at designing and building robust backend systems
-            that drive seamless functionality and deliver meaningful impact.
+          A dedicated software engineer who excels at architecting and implementing robust end-to-end systems
+          that deliver seamless functionality and drive meaningful business impact.
           </p>
           <!-- Navigation - hidden on small screens -->
           <nav class="hidden lg:flex lg:flex-col gap-4 lg:mb-20">
