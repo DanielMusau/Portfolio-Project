@@ -28,21 +28,21 @@ defmodule PortfolioProjectWeb.AboutComponent do
       </p>
       <br />
       <p>
-        Additionally, I work part-time as a Backend Engineer at <a
+        Previously, I worked as a Backend Engineer at
+        <a
           href="https://getonspace.com/"
           target="_blank"
           class="font-bold hover:text-text-hover group"
         >
-        OnSpace Technologies
-        <img
+          OnSpace Technologies
+          <img
             src="/images/arrow-up-right.svg"
             class="invert w-4 h-4 inline-block group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 ease-in-out group-hover:opacity-70"
           />
-        </a>,
-        where I design and maintain high-performance backend systems. I work with GraphQL and REST APIs, optimize databases, and apply
-        test-driven development to ensure 99.99% service availability. Beyond coding, I contribute to brainstorming sessions, mentor
-        colleagues, and foster a collaborative engineering culture. I’m always seeking ways to improve—whether refining system
-        architecture or expanding my technical expertise.
+        </a>
+        where I designed and maintained high-performance backend systems. I worked with GraphQL and REST APIs, optimized databases, and applied
+        test-driven development to ensure 99.99% service availability. Beyond coding, I contributed to brainstorming sessions, mentored
+        colleagues, and fostered a collaborative engineering culture.
       </p>
       <br />
       <p>

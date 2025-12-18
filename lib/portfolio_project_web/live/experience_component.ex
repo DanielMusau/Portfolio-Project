@@ -43,7 +43,7 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
         </div>
         <div class="show-card group">
           <div class="show-card-left">
-            May 2023 - Present
+            May 2023 - April 2025
           </div>
           <div class="show-card-right">
             <h2 class="font-bold pb-2">
