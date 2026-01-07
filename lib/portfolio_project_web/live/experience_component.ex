@@ -4,7 +4,7 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
   def render(assigns) do
     ~H"""
     <section id="experience" class="mb-24 default-padding">
-      <a href="https://getonspace.com/" target="_blank">
+      <a href="https://www.favoredcompany.com" target="_blank">
         <div class="show-card group">
           <div class="show-card-left">
             March 2025 - Present
@@ -41,6 +41,8 @@ defmodule PortfolioProjectWeb.ExperienceComponent do
             </div>
           </div>
         </div>
+      </a>
+      <a href="https://getonspace.com/" target="_blank">
         <div class="show-card group">
           <div class="show-card-left">
             May 2023 - April 2025
