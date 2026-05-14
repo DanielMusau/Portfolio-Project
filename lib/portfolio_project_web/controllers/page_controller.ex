@@ -6,4 +6,10 @@ defmodule PortfolioProjectWeb.PageController do
     # so skip the default app layout.
     render(conn, :home, layout: false)
   end
+
+  def not_found(conn, _params) do
+    conn
+    |> Phoenix.Controller.redirect(to: "/")
+    |> Plug.Conn.halt()
+  end
 end

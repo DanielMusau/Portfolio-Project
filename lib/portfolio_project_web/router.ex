@@ -20,6 +20,8 @@ defmodule PortfolioProjectWeb.Router do
     live "/", HomeLive
     live "/projects", ProjectLive
     live "/privacypolicy", PrivacyPolicyLive
+
+    get "/*path", PageController, :not_found
   end
 
   # Other scopes may use custom stacks.

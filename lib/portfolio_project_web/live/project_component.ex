@@ -9,9 +9,9 @@ defmodule PortfolioProjectWeb.ProjectComponent do
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img
-                src="/images/hypedboards.png"
-                alt="Global Spark"
-                class="w-[320px] h-[160px] mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
+                src="/images/hypedboards-preview.png"
+                alt="Hypedboards leaderboard preview"
+                class="w-full max-w-[320px] aspect-[16/10] object-cover object-top rounded-lg ring-1 ring-black/10 shadow-md group-hover:shadow-xl group-hover:scale-[1.03] transition-all duration-300 ease-in-out"
               />
             </div>
           </div>
@@ -39,7 +39,7 @@ defmodule PortfolioProjectWeb.ProjectComponent do
           <div class="col-span-2">
             <div class="flex flex-col items-center justify-center h-full">
               <img
-                src="https://hex.pm/images/hex.png"
+                src="https://hex.pm/images/hex-full.svg"
                 alt="Hex.pm logo"
                 class="w-13 h-13 mb-2 group-hover:scale-110 transition-transform duration-300 ease-in-out"
               />
